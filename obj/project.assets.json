@@ -8,25 +8,32 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/jeremytucker/.nuget/packages/": {}
+    "C:\\Users\\johnd\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jeremytucker/Projects/CustomerHash1/CustomerHash1.csproj",
+      "projectUniqueName": "C:\\Users\\johnd\\OneDrive\\Desktop\\repos\\Customer-Hash\\CustomerHash1.csproj",
       "projectName": "CustomerHash1",
-      "projectPath": "/Users/jeremytucker/Projects/CustomerHash1/CustomerHash1.csproj",
-      "packagesPath": "/Users/jeremytucker/.nuget/packages/",
-      "outputPath": "/Users/jeremytucker/Projects/CustomerHash1/obj/",
+      "projectPath": "C:\\Users\\johnd\\OneDrive\\Desktop\\repos\\Customer-Hash\\CustomerHash1.csproj",
+      "packagesPath": "C:\\Users\\johnd\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\johnd\\OneDrive\\Desktop\\repos\\Customer-Hash\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/jeremytucker/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\johnd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -60,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

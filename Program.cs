@@ -15,12 +15,23 @@ internal class Program
         Customer customer4 = new Customer("Dustin", 36, 4);
         //add customers to the table, assign object key value as the Customers user id,
         //and the object value as the customer object)
-        customerTable.Add(customer1.userId, "Jeremy");
-        customerTable.Add(customer2.userId, customer2);
-        customerTable.Add(customer3.userId, customer3);
-        customerTable.Add(customer4.userId, customer4);
+        customerTable.Add(customer1.UserId, customer1);
+        customerTable.Add(customer2.UserId, customer2);
+        customerTable.Add(customer3.UserId, customer3);
+        customerTable.Add(customer4.UserId, customer4);
 
-        
+
+        #region Dictionary
+        Dictionary<int, Customer> customerDictionary = new Dictionary<int, Customer>();
+        // Adding customers to the Dictionary<int, Customer>
+        // TODO: un-comment this out to see the error
+        // customerDictionary.Add(customer1.UserId, "Jeremy");
+
+        customerDictionary.Add(customer2.UserId, customer2);
+        customerDictionary.Add(customer3.UserId, customer3);
+        customerDictionary.Add(customer4.UserId, customer4);
+        #endregion
+
         // retrieve info from database if you know the key needed to access the value.
 
         //create a variable of type Customer to store the value. eg storedcustomer1.
@@ -31,11 +42,13 @@ internal class Program
         //the customerTable needs to casted as a customer object in order to work
         //this way what is returned is of type customer
 
-        Customer storedCustomer1 = (Customer)customerTable[customer1.userId];
+        Customer storedCustomer1 = (Customer)customerTable[customer1.UserId];
 
         //Console the query to test
-        
+        Console.WriteLine("======================");
+        Console.WriteLine(storedCustomer1.UserName);
+        Console.WriteLine(storedCustomer1.UserAge);
+        Console.WriteLine(storedCustomer1.UserId);
 
-      
     }
 }
