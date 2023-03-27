@@ -1,0 +1,15 @@
+/Users/jeremytucker/Projects/CustomerHash1/bin/Debug/net6.0/CustomerHash1
+/Users/jeremytucker/Projects/CustomerHash1/bin/Debug/net6.0/CustomerHash1.deps.json
+/Users/jeremytucker/Projects/CustomerHash1/bin/Debug/net6.0/CustomerHash1.runtimeconfig.json
+/Users/jeremytucker/Projects/CustomerHash1/bin/Debug/net6.0/CustomerHash1.dll
+/Users/jeremytucker/Projects/CustomerHash1/bin/Debug/net6.0/CustomerHash1.pdb
+/Users/jeremytucker/Projects/CustomerHash1/obj/Debug/net6.0/CustomerHash1.csproj.AssemblyReference.cache
+/Users/jeremytucker/Projects/CustomerHash1/obj/Debug/net6.0/CustomerHash1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremytucker/Projects/CustomerHash1/obj/Debug/net6.0/CustomerHash1.AssemblyInfoInputs.cache
+/Users/jeremytucker/Projects/CustomerHash1/obj/Debug/net6.0/CustomerHash1.AssemblyInfo.cs
+/Users/jeremytucker/Projects/CustomerHash1/obj/Debug/net6.0/CustomerHash1.csproj.CoreCompileInputs.cache
+/Users/jeremytucker/Projects/CustomerHash1/obj/Debug/net6.0/CustomerHash1.dll
+/Users/jeremytucker/Projects/CustomerHash1/obj/Debug/net6.0/refint/CustomerHash1.dll
+/Users/jeremytucker/Projects/CustomerHash1/obj/Debug/net6.0/CustomerHash1.pdb
+/Users/jeremytucker/Projects/CustomerHash1/obj/Debug/net6.0/CustomerHash1.genruntimeconfig.cache
+/Users/jeremytucker/Projects/CustomerHash1/obj/Debug/net6.0/ref/CustomerHash1.dll
